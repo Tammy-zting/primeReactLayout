@@ -1,7 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.js linguist-language=javaScript
-
+*.scss linguist-language=javaScript
+*.css linguist-language=javaScript
+*.html linguist-language=javaScript
+*.php linguist-language=javaScript
 
 
 
