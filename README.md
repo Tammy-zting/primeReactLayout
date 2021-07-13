@@ -8,3 +8,5 @@
   yarn
   yarn start
   ```
+- 效果
+  ![运行效果](https://github.com/Tammy-zting/primeReactLayout/blob/main/githubPic/PrimeReact-Sigma.png?raw=true)
