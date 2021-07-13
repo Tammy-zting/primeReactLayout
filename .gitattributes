@@ -3,4 +3,6 @@
 *.js linguist-language=React
 *.scss linguist-language=React
 *.css linguist-language=React
+*.html linguist-language=React
+
 
