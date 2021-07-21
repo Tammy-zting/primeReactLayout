@@ -92,6 +92,7 @@ export const Documentation = () => {
         <Route path="/calendar" component={Calendar} />
         <Route path="/crud" component={Crud} />
         <Route path="/empty" component={EmptyPage} />
+        <Route path="/cusComponents" component={CusComponentsPage} />
         <Route path="/documentation" component={Documentation} />
     </div>
 

@@ -3,6 +3,7 @@
 - 改进
   - [x] Menu滚动条美化
   - [x] Config设置区域增加多主题切换
+  - [x] 自适应工具栏  详见Pages-CusComponents Page
 - 运行
   ```
   yarn

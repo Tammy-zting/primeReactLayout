@@ -1,0 +1,20 @@
+.toolbar{
+    border:none;
+    flex-wrap: nowrap !important;
+}
+.rc-overflow {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    position: relative;
+}
+
+.rc-overflow-item {
+    flex: none;
+    max-width: 100%;
+}
+
+.border{
+    border:1px solid #e7e7e7;
+}
+

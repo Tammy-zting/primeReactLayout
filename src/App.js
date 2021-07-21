@@ -30,6 +30,8 @@ import { InvalidStateDemo } from './components/InvalidStateDemo';
 import { Calendar } from './pages/Calendar';
 import { Crud } from './pages/Crud';
 import { EmptyPage } from './pages/EmptyPage';
+import { CusComponentsPage } from './pages/CusComponentsPage';
+
 
 import { DisplayDemo } from './utilities/DisplayDemo';
 import { ElevationDemo } from './utilities/ElevationDemo';
@@ -59,8 +61,8 @@ const App = () => {
     const [layoutColorMode, setLayoutColorMode] = useState('dark')
     const [inputStyle, setInputStyle] = useState('outlined');
     const [ripple, setRipple] = useState(false);
-    const [theme,setTheme] = useState('saga-blue');  
-    const [darkTheme,setDarkTheme] = useState(false); 
+    const [theme,setTheme] = useState('saga-blue');
+    const [darkTheme,setDarkTheme] = useState(false);
 
     const [sidebarActive, setSidebarActive] = useState(true);
     const sidebar = useRef();
@@ -71,7 +73,7 @@ const App = () => {
     let menuClick = false;
 
     let theme_key = 'primetheme-react';   //缓存主题
-     
+
 
     useEffect(() => {
         if (sidebarActive) {
@@ -166,7 +168,9 @@ const App = () => {
                 { label: 'Crud', icon: 'pi pi-fw pi-user-edit', to: '/crud' },
                 { label: 'Calendar', icon: 'pi pi-fw pi-calendar-plus', to: '/calendar' },
                 { label: 'Timeline', icon: 'pi pi-fw pi-calendar', to: '/timeline' },
-                { label: 'Empty Page', icon: 'pi pi-fw pi-circle-off', to: '/empty' }
+                { label: 'Empty Page', icon: 'pi pi-fw pi-circle-off', to: '/empty' },
+                { label: 'CusComponents Page', icon: 'pi pi-fw pi-circle-off', to: '/cusComponents' }
+
             ]
         },
         {
@@ -313,6 +317,7 @@ const App = () => {
                 <Route path="/timeline" component={TimelineDemo} />
                 <Route path="/crud" component={Crud} />
                 <Route path="/empty" component={EmptyPage} />
+                <Route path="/cusComponents" component={CusComponentsPage} />
                 <Route path="/documentation" component={Documentation} />
             </div>
 
