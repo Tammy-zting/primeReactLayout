@@ -10,4 +10,7 @@
   yarn start
   ```
 - 效果
-  ![运行效果](https://github.com/Tammy-zting/primeReactLayout/blob/main/githubPic/PrimeReact-Sigma.png?raw=true)
+    - 首页
+    ![首页运行效果](https://github.com/Tammy-zting/primeReactLayout/blob/main/githubPic/PrimeReact-Sigma.png?raw=true)
+    - 工具栏
+    ![自适应工具栏](https://github.com/Tammy-zting/primeReactLayout/blob/main/githubPic/toolbar.png?raw=true)
